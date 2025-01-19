@@ -40,7 +40,7 @@ export default function RootLayout() {
       >
         <Stack.Screen name="index" />
         <Stack.Screen name="(routes)/onboarding/index" />
-        {/* <Stack.Screen name="(routes)/home/index" /> */}
+        <Stack.Screen name="(routes)/home/index" />
       </Stack>
     </ThemeProvider>
   );
