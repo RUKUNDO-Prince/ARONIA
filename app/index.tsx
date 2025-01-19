@@ -1,11 +1,16 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import { Redirect } from 'expo-router'
 
 const index = () => {
+  // const [isOnboarding, setIsOnboarding] = useState(true);
+
+    // useEffect(() => {
+
+    // }, []);
+
   return (
-    <View>
-      <Text>index</Text>
-    </View>
+    <Redirect href="/(routes)/onboarding" />
   )
 }
 
